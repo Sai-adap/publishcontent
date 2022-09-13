@@ -1,0 +1,63 @@
+.header{
+    height: 15vh;
+    border: 5px solid green;
+}
+.mainpage-name{
+    text-align:right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+/* navbar */
+.navbar{
+    height: 82vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid lemonchiffon;
+    text-align: center;
+    background-color: lightgreen;
+}
+.logout{
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.create-one{
+    border: 3cm;
+    align-content: center;
+    text-align: center;
+    margin-bottom: auto;
+    font-style: normal;
+}
+.create-text{
+    height:400px;
+    width: 700px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(190, 184, 184, 0.5);
+    font-size: large;
+    position: absolute;
+    top:150px;
+    padding-left: 30px;
+    border: 1px solid green;
+    right: 200px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.create-edit{
+    position: absolute;
+    border: 2px black;
+    border-width: 100px;
+    top:600px;
+    align-self: center;
+    right: 500px;
+    padding: 3px;
+    
+    
+}
+.create-save{
+    padding: 120px;
+}
+
